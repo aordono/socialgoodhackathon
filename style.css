@@ -1,0 +1,87 @@
+body {
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+/* SECTIONS */
+
+#header {
+	background-color: #141414;
+	color: ghostwhite;
+	background: linear-gradient(
+                     rgba(20,20,20, 0.5), 
+                     rgba(20,20,20, 0.7)),
+	url(http://www.inspiringfifty.com/wp-content/uploads/2015/02/mosaic.jpg);
+}
+
+#header, #main {
+	height: 100%;
+	padding: 20px;
+}
+
+/* END SECTIONS */
+
+
+/* CONTAINERS */
+
+.container-fluid {
+	width: 100%;
+	padding: 20px;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* END CONTAINERS */
+
+/* NAV */
+.menu {
+	height: 55px;
+	vertical-align: middle;
+}
+
+/* MAIN SECTION */
+
+.logo-data {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 30vh;
+}
+
+.logo-data > h1 {
+	margin-bottom: -10px;
+	font-size: 65px;
+}
+
+#head-btn{
+	margin-top: 120px;
+}
+
+/* END SECTION */
+
+
+#title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.title-area {
+	margin-top: 45px;
+}
+
+#underline {
+	width: 75px;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	background-color: lightseagreen;
+	height: 3px;
+}
+
+#desc {
+	text-align: center;
+}
