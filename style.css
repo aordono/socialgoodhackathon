@@ -3,6 +3,11 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+button > a {
+	text-decoration: none;
+	color: inherit;
+}
+
 /* SECTIONS */
 
 #header {
@@ -40,6 +45,14 @@ body {
 .menu {
 	height: 55px;
 	vertical-align: middle;
+	background-color: white !important;
+  	top:0;
+  	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+  	transition:all 0.5s;
+  	position: relative;
+  	z-index: 1;
 }
 
 /* MAIN SECTION */
@@ -60,6 +73,9 @@ body {
 }
 
 /* END SECTION */
+.title-area {
+	margin-top: 75px;
+}
 
 
 #title {
@@ -67,10 +83,6 @@ body {
 	font-size: 30px;
 	font-weight: 600;
 	text-transform: uppercase;
-}
-
-.title-area {
-	margin-top: 45px;
 }
 
 #underline {
@@ -84,4 +96,9 @@ body {
 
 #desc {
 	text-align: center;
+}
+
+.fixed-nav .menu {
+	position: fixed;
+	
 }
