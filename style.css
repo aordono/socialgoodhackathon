@@ -14,13 +14,17 @@ button > a {
 	background-color: #141414;
 	color: ghostwhite;
 	background: linear-gradient(
-                     rgba(20,20,20, 0.5), 
-                     rgba(20,20,20, 0.7)),
+                     rgba(20,20,20, 0.6), 
+                     rgba(20,20,20, 0.8)),
 	url(http://www.inspiringfifty.com/wp-content/uploads/2015/02/mosaic.jpg);
+	height: 100%;
 }
 
-#header, #main {
-	height: 100%;
+#main {
+	height: auto;
+}
+
+#header, #main, #cta-one {	
 	padding: 20px;
 }
 
@@ -68,13 +72,26 @@ button > a {
 	font-size: 65px;
 }
 
-#head-btn{
+#head-btn {
 	margin-top: 120px;
+	border-radius: 0px;
+}
+
+#head-btn a:hover {
+	color: #141414;
+}
+
+#title-img{
+	width: 50%;
+	margin: 0 auto;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 /* END SECTION */
 .title-area {
 	margin-top: 75px;
+	padding: 20px;
+	text-align: center;
 }
 
 
@@ -85,7 +102,7 @@ button > a {
 	text-transform: uppercase;
 }
 
-#underline {
+.underline {
 	width: 75px;
 	margin: 0 auto;
 	margin-top: -10px;
@@ -96,9 +113,49 @@ button > a {
 
 #desc {
 	text-align: center;
+	font-size: 23px;
 }
 
 .fixed-nav .menu {
 	position: fixed;
 	
+}
+
+#cta-one {
+	text-align: center;
+	background-color: lightcoral;
+	color: ghostwhite;
+}
+
+.person-name {
+	margin-bottom: -20px;
+}
+
+.person-img{
+	width: 75%;
+}
+
+
+/* people */
+.image:hover {
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.text {
+  z-index: 1;
+  text-align: center;
+}
+
+
+/* footer */
+footer {
+	background-color: antiquewhite;
+	height: 25%;
+	padding: 25px;
+}
+
+#social {
+	list-style: none;
+	display: inline;
 }
